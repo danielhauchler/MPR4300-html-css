@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    body {
+    html, body {
       margin: 0;
       padding: 0;
     }
     .wrapper {
       position: relative;
       width: 960px;
-      height: 100vh;
+      height: 200vh;
       padding: 50px;
       margin: 0 auto; 
       background-color: deepskyblue;
@@ -35,6 +35,13 @@
       border-radius: 50%;
       background-color:greenyellow;
     }
+
+    .fixedbox {
+      position: fixed;
+      width: 80px;
+      height: 80px;
+      background-color: chartreuse;
+    }
   </style>
 </head>
 <body>
@@ -44,6 +51,7 @@
     
       </div>
     </div>
+    <div class="fixedbox"></div>
   </div>
 </body>
 </html>
